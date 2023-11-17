@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="phone.css">
+    <title>phoneNumber</title>
+    
+</head>
+<body>
+    <div class="phone">
+        <h1>PHONE NUMBER DETECTION SERVICE</h1>
+    </div>
+    <div>
+        <form action="" class="all">
+            <label for="">FirstName: 
+                <input type="text" id="firstName" placeholder="Enter your first name" >
+            </label>
+            <label for="">MiddleName: 
+                <input type="text" id="firstName" placeholder="Enter your middle name">
+            </label>
+            <label for="">LastName: 
+                <input type="text" id="firstName" placeholder="Enter your last name">
+            </label>
+            <label for="">phoneNumber: 
+                <input type="number" id="phoneNumber" placeholder="Enter your phoneNumber" onkeyup="networkProvider()">
+             </label>
+             
+            <label for="">Counntry: 
+                <select id="country" name="country">
+                <option value="canada">Canada</option>
+                <option value="uk">Nigeria</option> 
+                <option value="uk">Ghana</option> 
+                <option value="uk">United Kingdom</option>
+                <option value="usa">United States</option> 
+            </select>
+            </label>
+            <button>Enter</button>
+        </form>
+        <div class="colored-overlay">
+        <img src="image/black-circle.png" alt="" id="images">
+    </div>
+    </div>
+        <script src="phone.js"></script>
+    </body>
+</html>
